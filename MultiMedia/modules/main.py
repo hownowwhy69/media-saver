@@ -1,9 +1,9 @@
 import asyncio
-from MultiMedia import app
+from MultiSaver import app
 from pyrogram import filters
 from config import OWNER_IDS
-from MultiMedia.core.mongo import premiumsdb
-from MultiMedia.core import media_func, core_func
+from MultiSaver.core.mongo import premiumsdb
+from MultiSaver.core import media_func, core_func
 
 # --------------------------------- utilites --------------------------------- #
 
