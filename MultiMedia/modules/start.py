@@ -1,8 +1,8 @@
-from MultiMedia import app
+from MultiSaver import app
 from pyrogram import filters
 from datetime import datetime
-from MultiMedia.core import script, core_func
-from MultiMedia.core.mongo import premiumsdb
+from MultiSaver.core import script, core_func
+from MultiSaver.core.mongo import premiumsdb
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
@@ -12,7 +12,7 @@ buttons = InlineKeyboardMarkup([
                 [
                   InlineKeyboardButton("ᴀ ʙ ᴏ ᴜ ᴛ", callback_data="about_")
                 ],[
-                  InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/DevsHubChat"),
+                  InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/multisaverchat"),
                   InlineKeyboardButton("🧩 ɪɴғᴏ", callback_data="info_")
                 ]])
 
