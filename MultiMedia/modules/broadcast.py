@@ -1,8 +1,8 @@
 import asyncio, traceback
 from pyrogram import filters
 from config import OWNER_IDS
-from MultiMedia import app
-from MultiMedia.core.mongo import usersdb
+from MultiSaver import app
+from MultiSaver.core.mongo import usersdb
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 
 STOP_BROADCAST = False
