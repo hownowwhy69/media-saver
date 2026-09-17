@@ -1,8 +1,8 @@
 {
-  "name": "MultiMedia",
-  "description": "A powerful Telegram multimedia bot, they can download social media links",
+  "name": "MultiSaver",
+  "description": "A powerful Telegram multi saver bot, they can download social media links",
   "repository": "https://github.com/Akatsumo/MultiMedia",
-  "keywords": ["telegram", "bot", "multimedia"],
+  "keywords": ["telegram", "bot", "multisaver"],
   "env": {
     "BOT_TOKEN": {
       "description": "Bot token received from @BotFather",
