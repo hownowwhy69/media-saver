@@ -1,4 +1,4 @@
-from MultiMedia.core.mongo import database
+from MultiSaver.core.mongo import database
 
 # --------------------------- Users Collection --------------------------- #
 usersdb = database.users_db
