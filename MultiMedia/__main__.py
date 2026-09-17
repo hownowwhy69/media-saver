@@ -1,19 +1,19 @@
 import asyncio
-import importlib, MultiMedia
+import importlib, MultiSaver
 from pyrogram import idle 
-from MultiMedia.modules import ALL_MODULES
+from MultiSaver.modules import ALL_MODULES
 
 loop = asyncio.get_event_loop()
 
 async def init_bot():
-    await MultiMedia.app.start()
+    await MultiSaver.app.start()
     print("[√] Bot Started")
     
-    getme = await MultiMedia.app.get_me()
-    MultiMedia.BOT_ID = getme.id
-    MultiMedia.BOT_USERNAME = getme.username
-    MultiMedia.BOT_NAME = f"{getme.first_name} {getme.last_name}" if getme.last_name else getme.first_name
-    print(f"»» Booted as {MultiMedia.BOT_NAME} (@{MultiMedia.BOT_USERNAME})")
+    getme = await MultiSaver.app.get_me()
+    MultiSaver.BOT_ID = getme.id
+    MultiSaver.BOT_USERNAME = getme.username
+    MultiSaver.BOT_NAME = f"{getme.first_name} {getme.last_name}" if getme.last_name else getme.first_name
+    print(f"»» Booted as {MultiSaver.BOT_NAME} (@{MultiSaver.BOT_USERNAME})")
   
 # ------------------------------- LOAD MODULES ------------------------------- #
     for all_module in ALL_MODULES:
@@ -21,7 +21,7 @@ async def init_bot():
 
     print("[√] Bot Deploy Successful ✨")
     await idle()
-    await MultiMedia.app.stop()
+    await MultiSaver.app.stop()
     print("Bot Stopped!!")
 
 
