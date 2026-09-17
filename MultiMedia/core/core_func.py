@@ -1,7 +1,7 @@
 import asyncio
 import os, time, math, yt_dlp
 from config import CHANNEL_IDS
-from MultiMedia.core import script
+from MultiSaver.core import script
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import UserNotParticipant, FloodWait
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
