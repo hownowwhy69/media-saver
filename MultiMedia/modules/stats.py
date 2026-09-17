@@ -1,8 +1,8 @@
 import motor, sys, time
-from MultiMedia import app, BOT_NAME
+from MultiSaver import app, BOT_NAME
 from config import OWNER_IDS
 from pyrogram import filters
-from MultiMedia.core.mongo import usersdb, premiumsdb
+from MultiSaver.core.mongo import usersdb, premiumsdb
 
 
 # --------------------------------------- Chat Watcher --------------------------------------- #
