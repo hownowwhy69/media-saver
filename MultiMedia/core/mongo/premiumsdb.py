@@ -1,6 +1,6 @@
 import re
 from datetime import datetime, timedelta
-from MultiMedia.core.mongo import database
+from MultiSaver.core.mongo import database
 
 # --------------------------- Premium Collection --------------------------- #
 db = database.premium_db
