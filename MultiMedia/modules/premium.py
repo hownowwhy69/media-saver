@@ -1,8 +1,8 @@
 from pyrogram import filters
-from MultiMedia import app
+from MultiSaver import app
 from config import OWNER_IDS
 from datetime import datetime
-from MultiMedia.core.mongo import premiumsdb
+from MultiSaver.core.mongo import premiumsdb
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
