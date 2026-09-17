@@ -3,7 +3,7 @@ import aiofiles, aiohttp, asyncio
 from hachoir.parser import createParser
 from hachoir.metadata import extractMetadata
 from MultiMedia import app
-from MultiMedia.core import core_func
+from MultiSaver.core import core_func
 
 
 # ---------------------------------------- Make Requests ---------------------------------------- #
