@@ -1,1 +1,1 @@
-worker: python -m MultiMedia
+worker: python -m MultiSaver
